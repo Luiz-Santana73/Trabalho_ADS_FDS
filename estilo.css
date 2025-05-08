@@ -1,15 +1,18 @@
-
 /* Definindo o estilo da página para uma cor suave e adicionais  */
 
-body{
+body {
 
-    background-color: #dcf5e8;  /* Cor de fundo suave pedido */
+    background-color: #dcf5e8;
+    /* Cor de fundo suave pedido */
 
-    font-family: Georgia;  /* Fonte do estilo de escrita das letras */
+    font-family: Georgia;
+    /* Fonte do estilo de escrita das letras */
 
-    line-height: 1.5;  /* Espaço de uma linha para outra */
+    line-height: 1.5;
+    /* Espaço de uma linha para outra */
 
-    margin: 20px;  /* Margem das informações da página em todos os lados */
+    margin: 20px;
+    /* Margem das informações da página em todos os lados */
 
     color: #333333;
 
@@ -22,3 +25,322 @@ body{
 /* Estilos do título principal */
 
 h1 {
+
+    color: #1322af;
+    /* Definindo a cor do titulo */
+
+    text-align: center;
+    /* Parte que define a posição do Ttulo na tela, definido para o centro */
+
+    font-size: 330%;
+    /* Tamanho do título principal */
+
+    margin-bottom: 50px;
+    /* Espaço entre o título e o parágrafo */
+
+}
+
+
+
+
+
+/* Estilo dos parágrafos */
+
+p {
+
+    color: #424040;
+    /* Cor do texto dos parágrafos */
+
+    text-align: justify;
+    /* Alinha o texto de acordo com as margens */
+
+    font-size: 120%;
+    /* Tamanho da fonte das letras do parágrafo */
+
+}
+
+
+p2 {
+    color: #4444;
+    /* Cor do texto dos parágrafos */
+
+    text-align: italic;
+    /* Alinha o texto de acordo com as margens */
+
+    font-size: 110%;
+    /* Tamanho da fonte das letras do parágrafo */
+
+}
+
+
+
+
+/* Estilo da lista */
+
+ul {
+
+    list-style-type: circle;
+    /* Tipo de marcador da lista */
+
+    margin-bottom: 80px;
+    /* Espaço entre a lista e a foto */
+
+    padding-left: 20px;
+    /* Espaço entre a lista e a margem esquerda */
+
+}
+
+
+
+
+
+/* Ajustes da imagem principal */
+
+.imgPrincipal {
+
+    margin-bottom: 100px;
+    /* Espaço entre a imagem e a tabela */
+
+    width: 50%;
+    /* Ajuste do Tamanho da imagem */
+
+    margin-left: auto;
+    /* Margem da esquerda */
+
+    margin-right: auto;
+    /* Margem da direita */
+
+    display: block;
+    /* Trava no meio */
+
+    border-radius: 15px;
+    /* Bordas arredondadas */
+
+}
+
+
+
+
+
+
+
+/* Estilo do titulo da tabela */
+
+caption {
+
+    text-align: center;
+    /* Centralizar o texto */
+
+    color: #555555;
+    /* Cor do texto */
+
+    font-weight: bold;
+    /* Colocar em negrito */
+
+    font-style: italic;
+    /* Colocar em itálico */
+
+    font-size: 150%;
+    /* Tamanho da fonte */
+
+}
+
+
+
+
+
+/* Estilo da tabela */
+
+table {
+
+    margin-bottom: 20px;
+    /* Espaço entre a tabela e o rodapé */
+
+    width: 100%;
+    /* Largura da tabela */
+
+    margin-left: auto;
+    /* Margem da esquerda */
+
+    margin-right: auto;
+    /* Margem da direita */
+
+    border-collapse: collapse;
+    /* ajusta as bordas da tabela */
+
+    background-color: #ffffff;
+    /* Cor de fundo da tabela */
+
+}
+
+
+
+
+
+/* Estilo do cabeçalho da tabela */
+
+thead {
+
+    background-color: #028a8a;
+    /* Cor de fundo*/
+
+    color: #ffffff;
+    /* Cor das letras */
+
+    font-family: Verdana, sans-serif;
+    /* Fonte das letras */
+
+    font-size: 115%;
+    /* Tamanho da fonte */
+
+    text-align: center;
+    /* Alinhamento do texto do cabeçalho */
+
+    height: 50px;
+    /* Altura do cabeçalho */
+
+}
+
+
+
+
+
+/* Estilo das células da tabela */
+
+td {
+
+    text-align: center;
+    /* Alinhamento do texto dentro das células */
+
+    font-size: 100%;
+    /* Tamanho das letras */
+
+    font-family: Arial, sans-serif;
+    /* Fonte das letras */
+
+    color: #383838;
+    /* Cor do texto */
+
+    border-bottom: 1px solid #cac9c9;
+    /* Borda das células só embaixo */
+
+}
+
+
+
+
+
+/* Estilo das imagens dentro da tabela */
+
+.imgTabela {
+
+    max-width: 150px;
+    /* Largura máxima da imagem */
+
+    max-height: 150px;
+    /* Altura máxima da imagem */
+
+    margin: 0 auto;
+    /* Centralizar a imagem dentro da célula */
+
+    display: block;
+    /* Travar a imagem */
+
+    border-radius: 8px;
+    /* Bordas arredondadas das imagens */
+
+}
+
+
+
+
+
+/* Estilo do link */
+
+a {
+
+    color: #328ef1;
+    /* Definir cor do link */
+
+    text-decoration: none;
+    /* Tirar sublinhado */
+
+}
+
+
+
+
+
+/* Estilo do link ao passar o mouse */
+
+a:hover {
+
+    color: #001aff;
+    /* Cor azul mais escura ao passar o mouse */
+
+    text-decoration: underline;
+    /* Colocar sublinhado ao passar o mouse */
+
+}
+
+
+
+
+
+/* Estilo do botão interativo */
+
+.botaoMensagem {
+
+    margin: 30px auto 10px auto;
+    /* definindo as margens */
+
+    background-color: #1322af;
+    /* Cor de fundo do botão */
+
+    font-family: Georgia;
+    /* Estilo do Texto */
+
+    color: #ffffff;
+    /* Cor do texto do botão */
+
+    font-size: 110%;
+    /* tamanho do texto */
+
+    border-radius: 8px;
+    /* arredondar bordas */
+
+    cursor: pointer;
+    /* faz a seta do mouse virar uma mãozinha */
+
+    display: block;
+    /* Travar o botão */
+
+}
+
+
+
+
+
+/* Mudar de cor ao passar o mouse por cima */
+
+.botaoMensagem:hover {
+
+    background-color: #0f1c8a;
+
+}
+
+
+
+/* Estilo da mensagem mostrada ao selecionar o botão */
+
+#mensagem {
+
+    text-align: center;
+
+    font-size: 115%;
+
+    color: #424040;
+
+    margin-top: 15px;
+
+}
