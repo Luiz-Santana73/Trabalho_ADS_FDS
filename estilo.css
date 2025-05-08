@@ -1,0 +1,24 @@
+
+/* Definindo o estilo da página para uma cor suave e adicionais  */
+
+body{
+
+    background-color: #dcf5e8;  /* Cor de fundo suave pedido */
+
+    font-family: Georgia;  /* Fonte do estilo de escrita das letras */
+
+    line-height: 1.5;  /* Espaço de uma linha para outra */
+
+    margin: 20px;  /* Margem das informações da página em todos os lados */
+
+    color: #333333;
+
+}
+
+
+
+
+
+/* Estilos do título principal */
+
+h1 {
