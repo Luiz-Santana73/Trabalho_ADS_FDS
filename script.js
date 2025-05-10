@@ -9,7 +9,7 @@ let mensagemF = ''
 let contaClique = 0;
 
 // Definindo aÃ§Ã£o para ao clickar no botÃ£o
-document.querySelector('#botao').addEventListener("click", e => {
+document.querySelector('#botao').addEventListener('click', e => {
 
     // soma 1 click
     contaClique++;
@@ -19,7 +19,7 @@ document.querySelector('#botao').addEventListener("click", e => {
         mensagemF = ''
     }
     else {
-        mensagemF = 'Continue buscando conhecimento todos os dias.'
+        mensagemF = 'Poucos dias antes de finalizar este trabalho, meu PC parou de funcionar, a tela tremeu, reiniciou, deu tela azul, reiniciou, e depois, nem tela azul estava querendo aparecer. Parou de funcionar. Fiquei preocupado, pois não havia feito backup dos arquivos... perdi tudo, e pior, sem o PC para fazer tudo de novo. Como irei entregar o trabalho solicitado? O polo é excelente, mas os horários conflitam com o trabalho. Como irei entregar o trabalho? Tenho um celular e um sonho. Apps e sites de criação de códigos, VSCode mobile, GitHub mobile, integração dos dois e sites na internet. Reescrevi cada linha com o celular, virando e desvirando a tela e, no fim, este é o resultado... Não é perfeito, mas se é uma mensagem de motivação que querem, é... "Nunca desista dos seus sonhos". Problemas e dificuldades sempre irão aparecer, mas foque na resolução, não no problema. Prospere na dificuldade. "Mar calmo nunca fez bom marinheiro"'
     }
 
     // Altera a mensagem na pÃ¡gina.
