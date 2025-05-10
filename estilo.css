@@ -64,10 +64,12 @@ p2 {
     color: #4444;
     /* Cor do texto dos parágrafos */
 
-    text-align: italic;
-    /* Alinha o texto de acordo com as margens */
+    text-align: justify, center;
+    /* Alinha o texto de acordo com as margens e centraliza */
+    
 
-    font-size: 110%;
+    
+    font-size: 100%;
     /* Tamanho da fonte das letras do parágrafo */
 
 }
